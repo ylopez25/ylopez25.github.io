@@ -128,6 +128,23 @@ Here are a few ideas to consider trying:
 - Entering information in a form adds content to the page or changes the page content
 - Your own creative idea!
 
+<details>
+  <summary>Hints for showing and hiding elements</summary>
+  
+  **CSS based approach**
+  - What CSS attribute can we use to make an element hidden?
+  - Can we give an element a class that is styled to make itself hidden?
+  - Can we create an extra class that would make the same element visible?
+  - How can we use DOM events and JavaScript to add and remove classes from elements?
+
+**JS based approach**
+
+- Can we store information that we want to show or hide as data in our JavaScript file instead of in HTML?
+- How can we use JavaScript to keep track of what things are supposed to be shown or hidden?
+- How can we use DOM events and JavaScript to change or replace the HTML or text content of an element when we want to show or hide something?
+
+</details>
+
 ## Pages or sections
 
 You can choose to make your site one long page broken up into sections, or your site can have a few different pages.
