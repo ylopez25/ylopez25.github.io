@@ -9,9 +9,9 @@ This project will build on the technical and non-technical skills that you have 
 - Fundamental UI/UX principles
 - Developing your personal brand and online profiles
 
-You'll use these skills to build an MVP of your **personal web site**. This Web site is a place to show the tech industry who you are and what can you do.
+You'll use these skills to build an MVP of your **personal web site**. This Web site is a place to show the tech industry who you are and what you can do.
 
-By the time you are job ready, your personal site will probably use additional technology and skills we have not covered yet. For now, this project will be an MVP (Minimum Viable Product) that you can continue to improve on during the course.
+By the time you are job ready, your personal site will probably use additional technologies and skills we have not covered yet. For now, this project will be an MVP (Minimum Viable Product) that you can continue to enhance during the course.
 
 ## Examples
 
@@ -133,13 +133,13 @@ Here are a few ideas to consider trying:
   
   **CSS based approach**
   - What CSS attribute can we use to make an element hidden?
-  - Can we give an element a class that is styled to make itself hidden?
+  - Can we give an HTML element a CSS class that is styled to make itself hidden?
   - Can we create an extra class that would make the same element visible?
   - How can we use DOM events and JavaScript to add and remove classes from elements?
 
 **JS based approach**
 
-- Can we store information that we want to show or hide as data in our JavaScript file instead of in HTML?
+- Can we store information that we want to show or hide in our JavaScript file instead of in HTML?
 - How can we use JavaScript to keep track of what things are supposed to be shown or hidden?
 - How can we use DOM events and JavaScript to change or replace the HTML or text content of an element when we want to show or hide something?
 
