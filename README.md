@@ -9,9 +9,9 @@ This project will build on the technical and non-technical skills that you have 
 - Fundamental UI/UX principles
 - Developing your personal brand and online profiles
 
-You'll use these skills to build an MVP of your **Personal web site**. This Web site is a place to show the tech industry who you are and what can you do.
+You'll use these skills to build an MVP of your **personal web site**. This Web site is a place to show the tech industry who you are and what can you do.
 
-By the time you are job ready, you will have built a personal site that uses additional technology and skills we have not covered yet. For now this will be an MVP (Minimum Viable Product) that you can continue to improve on during the course.
+By the time you are job ready, your personal site will probably use additional technology and skills we have not covered yet. For now, this project will be an MVP (Minimum Viable Product) that you can continue to improve on during the course.
 
 ## Examples
 
