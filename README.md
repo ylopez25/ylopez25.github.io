@@ -48,11 +48,34 @@ For more inspiration, here are some personal sites from alums!
 
 ## Trello Board
 
-For this project, we will give you a blank Trello board and you will be responsible for creating cards for the user stories and other criteria.
+For this project, we will give you a blank Trello board and you will be responsible for creating cards this time.
 
-Replace the link below with the link to your Trello project:
+Start by copying [this starter Trello board](https://trello.com/b/tTFpk77m/fsw-personal-site-project).
 
-[TBD Trello Link](https://www.trello.com)
+- Instructions here: [How to copy a Trello board](https://help.trello.com/article/802-copying-cards-lists-or-boards#:~:text=Open%20the%20board's%20menu%2C%20then,it%20to%20your%20new%20board.)
+- Give your board a title with your name and class number (7.2, 8.3, etc...)
+
+For past projects, we gave you a board that already had cards on it. This time, you will create the cards.
+
+- Create a card for each user story and put it in the `To Do` column.
+- In each card, create a checklist with the acceptance criteria for the story.
+
+You may also want to create cards for other project milestones and criteria. For example:
+
+- Create design mockup
+- Do user testing
+- Create grid layout
+- Create navigation UI
+- Choose accessible fonts and colors
+- Prepare demo for Feedback Fair
+- Make UI work for mobile devices
+- Deploy site to GitHub pages in class
+
+Also notice that you can set **DEADLINES** for a card, which may help you manage your time.
+
+When you are done, replace the link below with the link to your Trello board:
+
+[Replace this link with the link to your board](https://trello.com/b/tTFpk77m/fsw-personal-site-project)
 
 ## User Stories
 
@@ -79,7 +102,7 @@ Replace the link below with the link to your Trello project:
 - I can click a link to visit your GitHub page.
 - I can click a link to visit your LinkedIn page.
 
-### As a user, I can navigate your website.
+### As a user, I can navigate your site.
 
 #### Acceptance criteria
 
