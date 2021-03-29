@@ -3,6 +3,7 @@ body {
   font-family: cursive;
   font-size: 18px;
   color:whitesmoke;
+/*  Why do you have two competing values for margin?  */
   margin: 40px;
   margin: 5px;
   /* box-sizing: border-box; */
@@ -235,7 +236,7 @@ transition: 2s;
 /* .navigation-auto div:not(:last-child) {
 margin-right: 50px;
 } */
-
+/* Could you write a selector that targets each of these? Seems unnecessary to have 4 blocks that do the same thing. */
 #radio1:checked ~ .navigation-auto .auto-btn1{
 background : #40D3DC;
 }
