@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="index.css" rel="stylesheet" />
   <script src="index.js"></script>
+<!-- Why is this section tag in the head? Also, IMO, it's nicer to take care of all your styles in your css file(s).   -->
   <section
     style="background-image:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-high-tech-light-spot-running-people-advertising-background-backgroundblue-backgroundlight-spotrunlighthand-image_71875.jpg')">
 
@@ -42,7 +43,7 @@
 
   <br>
 
-
+<!-- Try using an HTML tag that is more descriptive, instead of div. Perhaps <section> would be more appropriate? -->
   <div>
     <h2 id="scroll">About Me:</h2>
     <p id="miDIV"> Hello there, my name is Yesenia and I am a Software engineer from Brooklyn, New York. I love learning
@@ -62,11 +63,13 @@
       quarantine hobby) and trying different cuisines in an effort to continuously heighten and experience different
       perspectives.
     </p>
+<!--   Moving forward, you should prefer to register you event handlers inside your JS files!   -->
     <button onclick="miFunction()">Hide</button>
   </div>
   <br>
 
   <div>
+<!--   It might be helpful to group the tags that go with each project in their own tag. That will help simplify your styling, I think!   -->
     <h2>Projects</h2>
 
     <h3>Click the images to unlock the secret code:</h3>
@@ -90,7 +93,7 @@
       it would be to get a bigger or smaller slice than usual. After all this fun, it is now time to look at your pizza
       summary and enjoy! 🍕 </p>
 
-
+<!--  This is a better use case for CSS margins than for br tags. For info on when to use each, see: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br  -->
     <br>
     <br>
 
