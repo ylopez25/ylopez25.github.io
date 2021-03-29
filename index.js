@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   let homeBtn = document.getElementById("about-me")
+  // All of these click handlers for the nav links are nearly identical!
+  // Could you refactor so that you use a single click listener for each of these nav buttons?
+  // Hint: use the event object that is passed to an event listener to figure out which nav button was clicked!
   homeBtn.addEventListener("click", () => {
     let homeIcon = document.getElementById("scroll")
     homeIcon.scrollIntoView({
@@ -40,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 })
 
+// Could you choose a function name that tells me what this does?
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
@@ -49,7 +53,7 @@ function myFunction() {
   }
 }
 
-
+// same here
 function laFunction() {
   var y = document.getElementById("laDIV");
   if (y.style.display === "none") {
@@ -59,6 +63,7 @@ function laFunction() {
   }
 }
 
+// and here
 function miFunction() {
   var z = document.getElementById("miDIV");
   if (z.style.display === "none") {
