@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 })
 
-function myFunction() {
-  var x = document.getElementById("myDIV");
+function expandPrj() {
+  var x = document.getElementById("projects");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -50,8 +50,8 @@ function myFunction() {
 }
 
 
-function laFunction() {
-  var y = document.getElementById("laDIV");
+function expandDes() {
+  var y = document.getElementById("description");
   if (y.style.display === "none") {
     y.style.display = "block";
   } else {
@@ -59,8 +59,8 @@ function laFunction() {
   }
 }
 
-function miFunction() {
-  var z = document.getElementById("miDIV");
+function expandAbout() {
+  var z = document.getElementById("aboutMe");
   if (z.style.display === "none") {
     z.style.display = "block";
   } else {

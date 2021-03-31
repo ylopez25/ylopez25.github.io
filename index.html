@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="index.css" rel="stylesheet" />
   <script src="index.js"></script>
-  <section
-    style="background-image:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-high-tech-light-spot-running-people-advertising-background-backgroundblue-backgroundlight-spotrunlighthand-image_71875.jpg')">
-
+  
 </head>
 
 <body>
+<section
+  style="background-image:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-high-tech-light-spot-running-people-advertising-background-backgroundblue-backgroundlight-spotrunlighthand-image_71875.jpg')">
   <nav id="home">
     <ul class="nav-links">
       <li>
@@ -45,7 +45,7 @@
 
   <div>
     <h2 id="scroll">About Me:</h2>
-    <p id="miDIV"> Hello there, my name is Yesenia and I am a Software engineer from Brooklyn, New York. I love learning
+    <p id="aboutMe"> Hello there, my name is Yesenia and I am a Software engineer from Brooklyn, New York. I love learning
       new ways to make code
       more consice and efficient. I am fluent in HTML, CSS, and still perfecting Javascript. When I am not coding, you
       can find me at the gym or at a NYC restaurant.
@@ -62,7 +62,7 @@
       quarantine hobby) and trying different cuisines in an effort to continuously heighten and experience different
       perspectives.
     </p>
-    <button onclick="miFunction()">Hide</button>
+    <button onclick="expandAbout()">Hide</button>
   </div>
   <br>
 
@@ -74,10 +74,10 @@
       <img src="https://i.imgur.com/rMsMQR5.png">
     </a>
     <h3>DIYPizza</h3>
-    <button onclick="myFunction()">Description</button>
+    <button onclick="expandPrj()">Description</button>
 
 
-    <p id="myDIV" style="display: none;">"There is no Pizza like in NYC". As a New Yorker, I can agree with that quote.
+    <p id="projects" style="display: none;">"There is no Pizza like in NYC". As a New Yorker, I can agree with that quote.
       I have been to
       different states but not even Chicago Pizza beats New York City. With that being said, I wanted to build an
       adventure game that takes you to a pizza shop BUT ... also let's you build your own. Sounds like a dream, although
@@ -103,8 +103,8 @@
 
 
     <h3>Snowman</h3>
-    <button onclick="laFunction()">Description</button>
-    <p id="laDIV" style="display: none;">I'm sure you have heard of the game "Hangman". Well, Snowman is the new and
+    <button onclick="expandDes()">Description</button>
+    <p id="description" style="display: none;">I'm sure you have heard of the game "Hangman". Well, Snowman is the new and
       improved version of it.
       The reason I say this is because the random word list is SUPER long which is amazing. If you are a competitve
       player like I am, then I can assure you that you will be playing Snowman for a while...unless you really are good.
