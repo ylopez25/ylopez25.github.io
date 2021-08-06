@@ -1,54 +1,53 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let homeBtn = document.getElementById("about-me")
+  let homeBtn = document.getElementById("about-me");
   homeBtn.addEventListener("click", () => {
-    let homeIcon = document.getElementById("scroll")
+    let homeIcon = document.getElementById("scroll");
     homeIcon.scrollIntoView({
       behavior: "smooth",
       block: "center",
-      inline:"center",
+      inline: "center",
     });
-  })
+  });
 
-  let prjBtn = document.getElementById("projects")
+  let prjBtn = document.getElementById("projects");
   prjBtn.addEventListener("click", () => {
-    let prjIcon = document.getElementById("scrolls")
+    let prjIcon = document.getElementById("scrolls");
     prjIcon.scrollIntoView({
       behavior: "smooth",
       block: "center",
-      inline:"center",
+      inline: "center",
     });
-  })
+  });
 
-  let contactBtn = document.getElementById("contact")
+  let contactBtn = document.getElementById("contact");
   contactBtn.addEventListener("click", () => {
-    let contactIcon = document.getElementById("scrolled")
+    let contactIcon = document.getElementById("scrolled");
     contactIcon.scrollIntoView({
-      behavior:"smooth",
+      behavior: "smooth",
       block: "center",
-      inline:"center"
-    })
-  })
+      inline: "center",
+    });
+  });
 
-  let skillsBtn = document.getElementById("skills")
+  let skillsBtn = document.getElementById("skills");
   skillsBtn.addEventListener("click", () => {
-    let skillsIcon = document.getElementById("coursel")
+    let skillsIcon = document.getElementById("coursel");
     skillsIcon.scrollIntoView({
       behavior: "smooth",
       block: "center",
-      inline:"center",
+      inline: "center",
     });
-  })
-})
+  });
+});
 
 function expandPrj() {
-  var x = document.getElementById("projects");
+  var x = document.getElementById("proj");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
 }
-
 
 function expandDes() {
   var y = document.getElementById("description");
