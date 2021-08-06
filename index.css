@@ -2,6 +2,7 @@ body {
   text-align: center;
   font-family: cursive;
   font-size: 18px;
+  -webkit-text-stroke: .5px pink;
   color: whitesmoke;
   margin: 5px;
   display: flex;
