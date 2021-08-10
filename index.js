@@ -1,68 +1,46 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let homeBtn = document.getElementById("about-me");
-  homeBtn.addEventListener("click", () => {
-    let homeIcon = document.getElementById("scroll");
-    homeIcon.scrollIntoView({
+  const aboutme = document.querySelector("#aboutme");
+  const aboutinfo = document.querySelector("#scroll");
+  const projects = document.querySelector("#projects");
+  const projectinfo = document.querySelector("#scrolls");
+  const skills = document.querySelector("#skills");
+  const skillsinfo = document.querySelector("#coursel");
+  const contact = document.querySelector("#contact");
+  const contactinfo = document.querySelector("#scrolled");
+
+  aboutme.addEventListener("click", (ev) => {
+    aboutinfo.scrollIntoView({
       behavior: "smooth",
       block: "center",
       inline: "center",
     });
   });
 
-  let prjBtn = document.getElementById("projects");
-  prjBtn.addEventListener("click", () => {
-    let prjIcon = document.getElementById("scrolls");
-    prjIcon.scrollIntoView({
+  projects.addEventListener("click", () => {
+    projectinfo.scrollIntoView({
       behavior: "smooth",
       block: "center",
       inline: "center",
     });
   });
 
-  let contactBtn = document.getElementById("contact");
-  contactBtn.addEventListener("click", () => {
-    let contactIcon = document.getElementById("scrolled");
-    contactIcon.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-      inline: "center",
-    });
+  skills.addEventListener("click", () => {
+    skillsinfo.scrollIntoView();
   });
 
-  let skillsBtn = document.getElementById("skills");
-  skillsBtn.addEventListener("click", () => {
-    let skillsIcon = document.getElementById("coursel");
-    skillsIcon.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-      inline: "center",
-    });
+  contact.addEventListener("click", () => {
+    contactinfo.scrollIntoView();
   });
 });
 
-function expandPrj() {
+
+function expandAll() {
   var x = document.getElementById("proj");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+   var y = document.getElementById("description");
+   var z = document.getElementById("aboutMe");
+  y.style.display == "none" ? y.style.display = "block" :  y.style.display = "none"
+  z.style.display === "none" ? z.style.display = "block": z.style.display = "none";
+  x.style.display === "none" ? x.style.display = "block" : x.style.display = "none"
 }
 
-function expandDes() {
-  var y = document.getElementById("description");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
-}
 
-function expandAbout() {
-  var z = document.getElementById("aboutMe");
-  if (z.style.display === "none") {
-    z.style.display = "block";
-  } else {
-    z.style.display = "none";
-  }
-}
